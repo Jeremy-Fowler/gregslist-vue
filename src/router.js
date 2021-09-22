@@ -32,6 +32,11 @@ const routes = [
     component: loadPage('HousesPage')
   },
   {
+    path: '/houses/:houseId',
+    name: 'House',
+    component: loadPage('HousePage')
+  },
+  {
     path: '/jobs',
     name: 'Jobs',
     component: loadPage('JobsPage')
